@@ -1,5 +1,5 @@
 all:
-	gcc tz_1.c -o main_float
+	gcc tz_1.c -lm -o main_float
 
 double:
-	gcc tz_1.c -DDOUBLE -o main_double
+	gcc tz_1.c -lm -DDOUBLE -o main_double
